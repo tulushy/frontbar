@@ -1,0 +1,21 @@
+{
+    "name": "frontbar",
+    "version": "1.0.0",
+    "description": "Frontbar - современный веб-мессенджер в стиле Telegram",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve .",
+        "deploy": "vercel --prod"
+    },
+    "keywords": [
+        "messenger",
+        "telegram-clone",
+        "web-messenger",
+        "frontbar"
+    ],
+    "author": "Frontbar Team",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "serve": "^14.2.0"
+    }
+}
